@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+}
+
+nav .logo {
+    margin-right: 20px;
+}
+
+nav .logo img {
+    height: 75px;
+    width: auto;
+}
+
+nav .navigation {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav .navigation li {
+    margin-right: 20px;
+}
+
+nav .navigation li:last-child {
+    margin-right: 0;
+}
